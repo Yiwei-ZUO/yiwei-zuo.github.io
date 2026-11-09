@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yiwei Zuo</title>
   <meta name="description" content="Yiwei Zuo 的个人主页：计算语言学、自然语言处理、机器学习与人工智能。" />
-  <link rel="stylesheet" href="/style.css?v=projects-20261109" />
+  <link rel="stylesheet" href="/style.css?v=project-rows-20261109" />
   <link rel="alternate" hreflang="en" href="https://yiwei-zuo.github.io/en/" />
   <link rel="alternate" hreflang="fr" href="https://yiwei-zuo.github.io/fr/" />
   <link rel="alternate" hreflang="zh-CN" href="https://yiwei-zuo.github.io/zh/" />
@@ -172,64 +172,120 @@
     <section id="projects" class="section">
       <div class="section-heading">
         <p class="section-label">项目</p>
-        <h2>精选项目</h2>
+        <h2>项目一览</h2>
       </div>
-      <div class="cards project-cards">
-        <article class="card">
-          <span class="card-index">01</span>
-          <h3>战锤 40K RAG 智能问答</h3>
-          <p>基于 LangGraph 与 Gemini 构建多源问答系统，融合 PDF 检索与只读 Text-to-SQL，提供自动路由、来源引用和 Streamlit 对话界面。</p>
-          <p class="project-tech">LangGraph · Gemini · RAG · SQLite</p>
+      <ol class="project-rows">
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">01</span>
+          <div class="project-content">
+            <h3>战锤 40K RAG 智能问答</h3>
+            <p class="project-description">基于 LangGraph 与 Gemini 构建多源问答系统，融合 PDF 检索与只读 Text-to-SQL，提供自动路由、来源引用和 Streamlit 对话界面。</p>
+            <p class="project-tech">LangGraph · Gemini · RAG · SQLite</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/warhammer-40k-rag-assistant" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 战锤 40K RAG 智能问答">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">02</span>
-          <h3>大语言模型微调：ICL 与 QLoRA</h3>
-          <p>使用 Qwen3-4B-Instruct 比较少样本 ICL 与 QLoRA 在法语 12 类上位语义分类中的表现，研究词元信息和 LoRA 配置，并区分开发集与测试集评估。</p>
-          <p class="project-tech">Qwen3-4B · ICL · QLoRA</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">02</span>
+          <div class="project-content">
+            <h3>大语言模型微调：ICL 与 QLoRA</h3>
+            <p class="project-description">使用 Qwen3-4B-Instruct 比较少样本 ICL 与 QLoRA 在法语 12 类上位语义分类中的表现，研究词元信息和 LoRA 配置，并区分开发集与测试集评估。</p>
+            <p class="project-tech">Qwen3-4B · ICL · QLoRA</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/french-hypersense-classification-with-ICL-and-QLoRA" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 大语言模型微调：ICL 与 QLoRA">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">03</span>
-          <h3>法语十四行诗生成</h3>
-          <p>开发字符级 GPT 与十四行诗语料处理流程，对比上下文长度、模型深度和结构化标注，分析生成诗歌的分节结构与文本表现。</p>
-          <p class="project-tech">PyTorch · Transformer · Text generation</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">03</span>
+          <div class="project-content">
+            <h3>法语十四行诗生成</h3>
+            <p class="project-description">开发字符级 GPT 与十四行诗语料处理流程，对比上下文长度、模型深度和结构化标注，分析生成诗歌的分节结构与文本表现。</p>
+            <p class="project-tech">PyTorch · Transformer · Text generation</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/gpt-generating-poetry" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 法语十四行诗生成">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">04</span>
-          <h3>词向量的语义调整</h3>
-          <p>复现基于词汇语义图的英语与法语词向量调整方法，对比不同词向量和语义资源，并在词语相似度与情感分类任务上进行评估。</p>
-          <p class="project-tech">WordNet · WOLF · GloVe · fastText</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">04</span>
+          <div class="project-content">
+            <h3>词向量的语义调整</h3>
+            <p class="project-description">复现基于词汇语义图的英语与法语词向量调整方法，对比不同词向量和语义资源，并在词语相似度与情感分类任务上进行评估。</p>
+            <p class="project-tech">WordNet · WOLF · GloVe · fastText</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/retrofitting-wordvectors" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 词向量的语义调整">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">05</span>
-          <h3>多语言表示空间分析</h3>
-          <p>分析六种语言在 mBERT 各层中的表示，研究各向异性、语言识别、跨语言检索、子空间重叠及按语言中心化的影响。</p>
-          <p class="project-tech">mBERT · FLORES+ · Representation analysis</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">05</span>
+          <div class="project-content">
+            <h3>多语言表示空间分析</h3>
+            <p class="project-description">分析六种语言在 mBERT 各层中的表示，研究各向异性、语言识别、跨语言检索、子空间重叠及按语言中心化的影响。</p>
+            <p class="project-tech">mBERT · FLORES+ · Representation analysis</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/are-languages-represented-in-disjoint-subspaces" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 多语言表示空间分析">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">06</span>
-          <h3>噪声环境下的音素识别</h3>
-          <p>构建英语与法语语音评估流程，设置十个噪声水平，使用 wav2vec2 进行音素识别并分析音素错误率，以 DVC 和 Pixi 管理流程与环境。</p>
-          <p class="project-tech">wav2vec2 · Speech · DVC</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">06</span>
+          <div class="project-content">
+            <h3>噪声环境下的音素识别</h3>
+            <p class="project-description">构建英语与法语语音评估流程，设置十个噪声水平，使用 wav2vec2 进行音素识别并分析音素错误率，以 DVC 和 Pixi 管理流程与环境。</p>
+            <p class="project-tech">wav2vec2 · Speech · DVC</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/phoneme_noise_asr" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 噪声环境下的音素识别">查看仓库 <span aria-hidden="true">↗</span></a>
-        </article>
-      </div>
-      <details class="more-projects">
-        <summary>更多项目 <span class="project-count">(7)</span></summary>
-        <ul class="project-list">
-          <li><a href="https://github.com/Yiwei-ZUO/dyck-transformers-lab" target="_blank" rel="noopener noreferrer">Transformer 与 Dyck 语言 <span aria-hidden="true">↗</span></a><p>括号错误检测与纠正、分布外评估、注意力分析和探针实验。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/wav2vec-precision-analysis" target="_blank" rel="noopener noreferrer">wav2vec 数值精度与量化 <span aria-hidden="true">↗</span></a><p>对比浮点与 int8 格式下的表示空间、说话人距离、存储开销和计算时间。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/ru-fr-acoustic-neural-representations" target="_blank" rel="noopener noreferrer">声学特征与神经语音表示 <span aria-hidden="true">↗</span></a><p>对比法语母语与非母语语音中的传统声学指标及 Whisper、XLS-R 神经表示。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/mbert_multilingual_pos_experiment" target="_blank" rel="noopener noreferrer">mBERT 跨语言词性标注 <span aria-hidden="true">↗</span></a><p>基于五种语言的 Universal Dependencies 树库开展微调与跨语言迁移实验。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/vowel-inventories-of-world-languages" target="_blank" rel="noopener noreferrer">世界语言元音系统分析 <span aria-hidden="true">↗</span></a><p>利用 PHOIBLE 分析元音共现与语言共性假说，并考虑语言谱系关系的影响。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/PROJETS_tagger" target="_blank" rel="noopener noreferrer">Brill 词性标注器 <span aria-hidden="true">↗</span></a><p>实现基于规则的训练与法语交互式词性标注，使用 Sequoia 语料。</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/parallelism" target="_blank" rel="noopener noreferrer">语料并行处理 <span aria-hidden="true">↗</span></a><p>对比串行、多线程和多进程词频统计，结合性能分析与任务粒度实验。</p></li>
-        </ul>
-      </details>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">07</span>
+          <div class="project-content">
+            <h3>Transformer 与 Dyck 语言</h3>
+            <p class="project-description">括号错误检测与纠正、分布外评估、注意力分析和探针实验。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/dyck-transformers-lab" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: Transformer 与 Dyck 语言">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">08</span>
+          <div class="project-content">
+            <h3>wav2vec 数值精度与量化</h3>
+            <p class="project-description">对比浮点与 int8 格式下的表示空间、说话人距离、存储开销和计算时间。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/wav2vec-precision-analysis" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: wav2vec 数值精度与量化">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">09</span>
+          <div class="project-content">
+            <h3>声学特征与神经语音表示</h3>
+            <p class="project-description">对比法语母语与非母语语音中的传统声学指标及 Whisper、XLS-R 神经表示。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/ru-fr-acoustic-neural-representations" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 声学特征与神经语音表示">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">10</span>
+          <div class="project-content">
+            <h3>mBERT 跨语言词性标注</h3>
+            <p class="project-description">基于五种语言的 Universal Dependencies 树库开展微调与跨语言迁移实验。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/mbert_multilingual_pos_experiment" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: mBERT 跨语言词性标注">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">11</span>
+          <div class="project-content">
+            <h3>世界语言元音系统分析</h3>
+            <p class="project-description">利用 PHOIBLE 分析元音共现与语言共性假说，并考虑语言谱系关系的影响。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/vowel-inventories-of-world-languages" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 世界语言元音系统分析">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">12</span>
+          <div class="project-content">
+            <h3>Brill 词性标注器</h3>
+            <p class="project-description">实现基于规则的训练与法语交互式词性标注，使用 Sequoia 语料。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/PROJETS_tagger" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: Brill 词性标注器">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">13</span>
+          <div class="project-content">
+            <h3>语料并行处理</h3>
+            <p class="project-description">对比串行、多线程和多进程词频统计，结合性能分析与任务粒度实验。</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/parallelism" target="_blank" rel="noopener noreferrer" aria-label="查看仓库: 语料并行处理">查看仓库 <span aria-hidden="true">↗</span></a>
+        </li>
+      </ol>
       <a class="all-projects-link" href="https://github.com/Yiwei-ZUO?tab=repositories" target="_blank" rel="noopener noreferrer">查看全部 GitHub 仓库 <span aria-hidden="true">↗</span></a>
     </section>
 

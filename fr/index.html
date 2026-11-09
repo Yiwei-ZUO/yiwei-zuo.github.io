@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yiwei Zuo</title>
   <meta name="description" content="Site personnel de Yiwei Zuo — linguistique informatique, traitement automatique des langues et intelligence artificielle." />
-  <link rel="stylesheet" href="/style.css?v=projects-20261109" />
+  <link rel="stylesheet" href="/style.css?v=project-rows-20261109" />
   <link rel="alternate" hreflang="en" href="https://yiwei-zuo.github.io/en/" />
   <link rel="alternate" hreflang="fr" href="https://yiwei-zuo.github.io/fr/" />
   <link rel="alternate" hreflang="zh-CN" href="https://yiwei-zuo.github.io/zh/" />
@@ -172,64 +172,120 @@
     <section id="projects" class="section">
       <div class="section-heading">
         <p class="section-label">Projets</p>
-        <h2>Sélection de projets</h2>
+        <h2>Mes projets</h2>
       </div>
-      <div class="cards project-cards">
-        <article class="card">
-          <span class="card-index">01</span>
-          <h3>Agent RAG Warhammer 40K</h3>
-          <p>Développement d’un assistant multi-sources combinant recherche dans des PDF et Text-to-SQL en lecture seule, avec routage LangGraph, citations des sources et interface Streamlit.</p>
-          <p class="project-tech">LangGraph · Gemini · RAG · SQLite</p>
+      <ol class="project-rows">
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">01</span>
+          <div class="project-content">
+            <h3>Agent RAG Warhammer 40K</h3>
+            <p class="project-description">Développement d’un assistant multi-sources combinant recherche dans des PDF et Text-to-SQL en lecture seule, avec routage LangGraph, citations des sources et interface Streamlit.</p>
+            <p class="project-tech">LangGraph · Gemini · RAG · SQLite</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/warhammer-40k-rag-assistant" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Agent RAG Warhammer 40K">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">02</span>
-          <h3>Adaptation de LLM : ICL et QLoRA</h3>
-          <p>Comparaison du few-shot ICL et de QLoRA avec Qwen3-4B-Instruct pour classer 12 hypersens français : inclusion du lemme, configurations LoRA et évaluation sur des jeux de développement et de test distincts.</p>
-          <p class="project-tech">Qwen3-4B · ICL · QLoRA</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">02</span>
+          <div class="project-content">
+            <h3>Adaptation de LLM : ICL et QLoRA</h3>
+            <p class="project-description">Comparaison du few-shot ICL et de QLoRA avec Qwen3-4B-Instruct pour classer 12 hypersens français : inclusion du lemme, configurations LoRA et évaluation sur des jeux de développement et de test distincts.</p>
+            <p class="project-tech">Qwen3-4B · ICL · QLoRA</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/french-hypersense-classification-with-ICL-and-QLoRA" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Adaptation de LLM : ICL et QLoRA">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">03</span>
-          <h3>Génération de sonnets français</h3>
-          <p>Développement d’un GPT au niveau des caractères et d’un pipeline de corpus de sonnets. Comparaison de la longueur du contexte, de la profondeur du modèle et des annotations structurelles.</p>
-          <p class="project-tech">PyTorch · Transformer · Text generation</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">03</span>
+          <div class="project-content">
+            <h3>Génération de sonnets français</h3>
+            <p class="project-description">Développement d’un GPT au niveau des caractères et d’un pipeline de corpus de sonnets. Comparaison de la longueur du contexte, de la profondeur du modèle et des annotations structurelles.</p>
+            <p class="project-tech">PyTorch · Transformer · Text generation</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/gpt-generating-poetry" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Génération de sonnets français">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">04</span>
-          <h3>Ajustement sémantique de vecteurs de mots</h3>
-          <p>Réimplémentation du retrofitting sémantique de plongements anglais et français à partir de graphes lexicaux, avec évaluation en similarité lexicale et en classification de sentiments.</p>
-          <p class="project-tech">WordNet · WOLF · GloVe · fastText</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">04</span>
+          <div class="project-content">
+            <h3>Ajustement sémantique de vecteurs de mots</h3>
+            <p class="project-description">Réimplémentation du retrofitting sémantique de plongements anglais et français à partir de graphes lexicaux, avec évaluation en similarité lexicale et en classification de sentiments.</p>
+            <p class="project-tech">WordNet · WOLF · GloVe · fastText</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/retrofitting-wordvectors" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Ajustement sémantique de vecteurs de mots">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">05</span>
-          <h3>Géométrie des représentations multilingues</h3>
-          <p>Étude de six langues dans les couches de mBERT : anisotropie, identification de langue, recherche interlingue, recouvrement des sous-espaces et effet du centrage par langue.</p>
-          <p class="project-tech">mBERT · FLORES+ · Representation analysis</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">05</span>
+          <div class="project-content">
+            <h3>Géométrie des représentations multilingues</h3>
+            <p class="project-description">Étude de six langues dans les couches de mBERT : anisotropie, identification de langue, recherche interlingue, recouvrement des sous-espaces et effet du centrage par langue.</p>
+            <p class="project-tech">mBERT · FLORES+ · Representation analysis</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/are-languages-represented-in-disjoint-subspaces" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Géométrie des représentations multilingues">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-        <article class="card">
-          <span class="card-index">06</span>
-          <h3>Reconnaissance phonémique en milieu bruité</h3>
-          <p>Création d’un pipeline d’évaluation en anglais et en français : dix niveaux de bruit, reconnaissance phonémique wav2vec2 et analyse du taux d’erreur phonémique, avec DVC et Pixi.</p>
-          <p class="project-tech">wav2vec2 · Speech · DVC</p>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">06</span>
+          <div class="project-content">
+            <h3>Reconnaissance phonémique en milieu bruité</h3>
+            <p class="project-description">Création d’un pipeline d’évaluation en anglais et en français : dix niveaux de bruit, reconnaissance phonémique wav2vec2 et analyse du taux d’erreur phonémique, avec DVC et Pixi.</p>
+            <p class="project-tech">wav2vec2 · Speech · DVC</p>
+          </div>
           <a class="project-link" href="https://github.com/Yiwei-ZUO/phoneme_noise_asr" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Reconnaissance phonémique en milieu bruité">Voir le dépôt <span aria-hidden="true">↗</span></a>
-        </article>
-      </div>
-      <details class="more-projects">
-        <summary>Autres projets <span class="project-count">(7)</span></summary>
-        <ul class="project-list">
-          <li><a href="https://github.com/Yiwei-ZUO/dyck-transformers-lab" target="_blank" rel="noopener noreferrer">Transformers et langages de Dyck <span aria-hidden="true">↗</span></a><p>Détection et correction d’erreurs de parenthésage, évaluation hors distribution, analyse d’attention et sondes.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/wav2vec-precision-analysis" target="_blank" rel="noopener noreferrer">Précision et quantification dans wav2vec <span aria-hidden="true">↗</span></a><p>Comparaison de la géométrie des représentations, des distances entre locuteurs, du stockage et du temps de calcul selon la précision.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/ru-fr-acoustic-neural-representations" target="_blank" rel="noopener noreferrer">Représentations acoustiques et neuronales <span aria-hidden="true">↗</span></a><p>Comparaison de mesures acoustiques et de représentations Whisper et XLS-R pour la parole française native et non native.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/mbert_multilingual_pos_experiment" target="_blank" rel="noopener noreferrer">Étiquetage morphosyntaxique interlingue avec mBERT <span aria-hidden="true">↗</span></a><p>Expériences d’adaptation et de transfert interlingue sur les corpus Universal Dependencies de cinq langues.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/vowel-inventories-of-world-languages" target="_blank" rel="noopener noreferrer">Inventaires vocaliques des langues du monde <span aria-hidden="true">↗</span></a><p>Analyse des cooccurrences vocaliques et d’universaux linguistiques proposés avec PHOIBLE, en tenant compte des familles de langues.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/PROJETS_tagger" target="_blank" rel="noopener noreferrer">Étiqueteur morphosyntaxique de Brill <span aria-hidden="true">↗</span></a><p>Implémentation de l’apprentissage de règles et de l’étiquetage interactif du français avec le corpus Sequoia.</p></li>
-          <li><a href="https://github.com/Yiwei-ZUO/parallelism" target="_blank" rel="noopener noreferrer">Traitement parallèle de corpus <span aria-hidden="true">↗</span></a><p>Comparaison du comptage de mots séquentiel, multithread et multiprocessus, avec profilage et étude de la granularité des tâches.</p></li>
-        </ul>
-      </details>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">07</span>
+          <div class="project-content">
+            <h3>Transformers et langages de Dyck</h3>
+            <p class="project-description">Détection et correction d’erreurs de parenthésage, évaluation hors distribution, analyse d’attention et sondes.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/dyck-transformers-lab" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Transformers et langages de Dyck">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">08</span>
+          <div class="project-content">
+            <h3>Précision et quantification dans wav2vec</h3>
+            <p class="project-description">Comparaison de la géométrie des représentations, des distances entre locuteurs, du stockage et du temps de calcul selon la précision.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/wav2vec-precision-analysis" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Précision et quantification dans wav2vec">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">09</span>
+          <div class="project-content">
+            <h3>Représentations acoustiques et neuronales</h3>
+            <p class="project-description">Comparaison de mesures acoustiques et de représentations Whisper et XLS-R pour la parole française native et non native.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/ru-fr-acoustic-neural-representations" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Représentations acoustiques et neuronales">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">10</span>
+          <div class="project-content">
+            <h3>Étiquetage morphosyntaxique interlingue avec mBERT</h3>
+            <p class="project-description">Expériences d’adaptation et de transfert interlingue sur les corpus Universal Dependencies de cinq langues.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/mbert_multilingual_pos_experiment" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Étiquetage morphosyntaxique interlingue avec mBERT">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">11</span>
+          <div class="project-content">
+            <h3>Inventaires vocaliques des langues du monde</h3>
+            <p class="project-description">Analyse des cooccurrences vocaliques et d’universaux linguistiques proposés avec PHOIBLE, en tenant compte des familles de langues.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/vowel-inventories-of-world-languages" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Inventaires vocaliques des langues du monde">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">12</span>
+          <div class="project-content">
+            <h3>Étiqueteur morphosyntaxique de Brill</h3>
+            <p class="project-description">Implémentation de l’apprentissage de règles et de l’étiquetage interactif du français avec le corpus Sequoia.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/PROJETS_tagger" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Étiqueteur morphosyntaxique de Brill">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+        <li class="project-row">
+          <span class="project-number" aria-hidden="true">13</span>
+          <div class="project-content">
+            <h3>Traitement parallèle de corpus</h3>
+            <p class="project-description">Comparaison du comptage de mots séquentiel, multithread et multiprocessus, avec profilage et étude de la granularité des tâches.</p>
+          </div>
+          <a class="project-link" href="https://github.com/Yiwei-ZUO/parallelism" target="_blank" rel="noopener noreferrer" aria-label="Voir le dépôt: Traitement parallèle de corpus">Voir le dépôt <span aria-hidden="true">↗</span></a>
+        </li>
+      </ol>
       <a class="all-projects-link" href="https://github.com/Yiwei-ZUO?tab=repositories" target="_blank" rel="noopener noreferrer">Tous les dépôts sur GitHub <span aria-hidden="true">↗</span></a>
     </section>
 
