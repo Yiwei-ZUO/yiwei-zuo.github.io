@@ -740,3 +740,10 @@ section[id], #languages, #top { scroll-margin-top: 150px; }
   .project-link { grid-column: 2; justify-self: start; }
 }
 
+
+/* Research figure preview: preserve the complete plot and open the comparison. */
+.project-figure { margin: 18px 0 0; }
+.project-figure a { display: block; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.project-figure a:hover { border-color: var(--accent); }
+.project-figure img { display: block; width: 100%; height: auto; background: white; }
+.project-figure figcaption { padding: 10px 12px; color: var(--muted); font-size: 0.8rem; line-height: 1.5; background: var(--surface-soft); }
