@@ -747,3 +747,7 @@ section[id], #languages, #top { scroll-margin-top: 150px; }
 .project-figure a:hover { border-color: var(--accent); }
 .project-figure img { display: block; width: 100%; height: auto; background: white; }
 .project-figure figcaption { padding: 10px 12px; color: var(--muted); font-size: 0.8rem; line-height: 1.5; background: var(--surface-soft); }
+
+/* Focus the interface preview on the question, answer and cited sources. */
+.project-interface-preview { display: block; aspect-ratio: 1; overflow: hidden; background: #f2f1eb; }
+.project-interface-preview img { width: 230%; max-width: none; height: auto; transform: translate(-38%, -10%); }
